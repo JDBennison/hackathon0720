@@ -16,15 +16,74 @@ a:hover {
   color: #f4f4f4;
 }
 
-.form-questions {
+
+.live-article-form {
+    background: url("./assets/images/brickwall.jpg") no-repeat;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.live-form {
+  font-family: "IBM Plex Mono", monospace;
+  color: #bacafa;
+  background-color: rgb(48, 64, 81, 0.5);
+  padding: 6px;
+  border: 1px solid #0e243e;
+  border-radius: 6px;
+}
+
+.live-form-text {
+  background: #9d5d3a;
+  color: #304051;
   width: 100%;
-  height: 30rem;
-  position: relative;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  clear: both;
-  overflow-y: scroll;
+  height: 30px;
   margin: 0 auto;
-  padding: 8px;
+  border: 1px solid #a4abb8;
+  border-radius: 2px;
+}
+
+.live-form-msg:hover,
+.live-form-text:hover {
+  border-color: #ce640a;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline-color: #a4abb8;
+}
+
+.live-form-msg {
+  background: #9d5d3a;
+  color: #304051;
+  width: 100%;
+  height: 300px;
+
+  border: 1px solid #a4abb8;
+}
+
+
+
+
+
+
+.live-button {
+display: flex;
+  position: relative;
+  width: 40%;
+  justify-content: center;
+  align-content: center;
+  margin: 8px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.live-button:hover {
+  background: #ce640a;
+  border: 2px inset #a4abb8;
+  color: #454e53;
 }
