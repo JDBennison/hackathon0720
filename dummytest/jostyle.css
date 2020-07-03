@@ -1,0 +1,41 @@
+/* style sheet for form test site JosV */
+
+body {
+    background: black;
+    color: #fafafa;
+    }
+
+a {
+    color: #face6d;
+    text-decoration: none;
+    }
+
+a:hover {
+    font-size: 1.03rem;
+     text-decoration: none;
+     color: #f4f4f4;
+}
+
+.form-container{
+       width: 100%;
+  
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form-questions-container {
+    height: 400px;
+}
+.form-questions {
+    width: 100%;
+  
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+clear: both;
+overflow-y: scroll;
+margin: 0 auto;
+padding: 8px;
+}
