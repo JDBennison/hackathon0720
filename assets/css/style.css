@@ -10,7 +10,7 @@
 }
 
 .card-img-top {
-  height: 20vw;
+  height: 10vw;
   object-fit: contain;
   margin: auto;
   padding-top: 10px;
@@ -29,6 +29,11 @@
 
 ol li {
     font-weight: bold;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .table{
