@@ -31,6 +31,14 @@ ol li {
     font-weight: bold;
 }
 
+.table{
+    margin-top: 1rem;
+}
+
+.answer {
+    display: none;
+}
+
 /* fonts */
 
 /* header */
