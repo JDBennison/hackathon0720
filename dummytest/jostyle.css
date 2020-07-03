@@ -18,7 +18,8 @@ a:hover {
 
 
 .live-article-form {
-    background: url("./assets/images/brickwall.jpg") no-repeat;
+    background: url("/assets/images/brickwall.jpg") no-repeat;
+    background-color: red;
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -28,7 +29,7 @@ a:hover {
 
 .live-form {
   font-family: "IBM Plex Mono", monospace;
-  color: #bacafa;
+  color: #EDE8E8;
   background-color: rgb(48, 64, 81, 0.5);
   padding: 6px;
   border: 1px solid #0e243e;
@@ -36,15 +37,21 @@ a:hover {
 }
 
 .live-form-text {
-  background: #9d5d3a;
+  background: #775C54;
+/*
   color: #304051;
+*/
+color: #0E071E;
   width: 100%;
   height: 30px;
   margin: 0 auto;
-  border: 1px solid #a4abb8;
-  border-radius: 2px;
+  border: 1px solid #1B404A;
+    border-radius: 2px;
 }
 
+.live-form label {
+    color: #0E071E;
+}
 .live-form-msg:hover,
 .live-form-text:hover {
   border-color: #ce640a;
@@ -61,7 +68,7 @@ button:focus {
   background: #9d5d3a;
   color: #304051;
   width: 100%;
-  height: 300px;
+  height: 40px;
 
   border: 1px solid #a4abb8;
 }
