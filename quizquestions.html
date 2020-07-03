@@ -1,52 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Quiz Valley</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-	</script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
-		integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Quiz Valley</title>
-</head>
-
-<body>
-	<nav>
-	</nav>
-	<section class="container">
-		<div class="row">
-			<div class="col-12 text-center">
-				<img src="assets/images/be_the_host.png" alt="Be The Host" class="host-title">
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="logo">
+      <a class="navbar-brand" 
+      href="index.html">
+      <img class="d-lg-block img-fluid" src="assets/images/quiz_valley_neon_logo.png" alt="Quiz Valley logo" /></a>
         </div>
-			</div>
-			<div class="row">
-				<div class="col-8">
-					<p>So you want to be a Quizmaster? No problem.</p>
-					<p>We have all the tools that you might need to host your own quiz night with your family on the
-						video chat of your choice with a whole host of different rounds to capture your fancy.</p>
-					<p>When hosting a virtual quiz night its very important to bear a few things in mind</p>
-					<ol>
-						<li>Consider who is playing</li>
-                        <p>You will want to tone your quiz differently and pick different questions based on who is playing. If it is between you and your friends then you might feel comfortable using fruity language or rude questions. If its a family quiz then you might want to put questions in there for older relatives and young teens.</p>
-                        <li>How you will be communicating?</li>
-                        <p>If you are talking on a group voice call then it might be trickier to do picture rounds or music rounds. Video services like Zoom or Google Meet often lets you share your screens making picture rounds a bit more accessible. It is often best for everyone to mute themselves apart from the Quizmaster so you cant hear each other discussing the answers and also so there is no distracting feedback noise.</p>
-                        <li>What are you playing for?</li>
-                        <p>Will you have a prize for the victor? Or are you just playing for glory. Perhaps there is even a forfeit system for the losing team picked by the winning team. Make sure you are clear on this before the quiz starts!</p>
-					</ol>
-				</div>
-				<div class="col-4">
-					<img src="assets/images/thinkingman.png" alt="person thinking" class="host-img">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="howtoplay.html">
+        How to play
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="quizquestions.html" >
+          Host your own
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="live.html">Live</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="brainteasers.html">Brainteaser</a>
+      </li>
+    </ul>
+     </div>
+</nav>
+</header>
+    <section class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img
+            src="assets/images/be_the_host.png"
+            alt="Be The Host"
+            class="host-title"
+          />
         </div>
-				</div>
-	</section>
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <p>So you want to be a Quizmaster? No problem.</p>
+          <p>
+            We have all the tools that you might need to host your own quiz
+            night with your family on the video chat of your choice with a whole
+            host of different rounds to capture your fancy.
+          </p>
+          <p>
+            When hosting a virtual quiz night its very important to bear a few
+            things in mind
+          </p>
+          <ol>
+            <li>Consider who is playing</li>
+            <p>
+              You will want to tone your quiz differently and pick different
+              questions based on who is playing. If it is between you and your
+              friends then you might feel comfortable using fruity language or
+              rude questions. If its a family quiz then you might want to put
+              questions in there for older relatives and young teens.
+            </p>
+            <li>How you will be communicating?</li>
+            <p>
+              If you are talking on a group voice call then it might be trickier
+              to do picture rounds or music rounds. Video services like Zoom or
+              Google Meet often lets you share your screens making picture
+              rounds a bit more accessible. It is often best for everyone to
+              mute themselves apart from the Quizmaster so you cant hear each
+              other discussing the answers and also so there is no distracting
+              feedback noise.
+            </p>
+            <li>What are you playing for?</li>
+            <p>
+              Will you have a prize for the victor? Or are you just playing for
+              glory. Perhaps there is even a forfeit system for the losing team
+              picked by the winning team. Make sure you are clear on this before
+              the quiz starts!
+            </p>
+          </ol>
+        </div>
+        <div class="col-4">
+          <img
+            src="assets/images/thinkingman.png"
+            alt="person thinking"
+            class="host-img"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="containter">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/tv-questions.png" class="card-img-top" alt="television" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Television</h5>
+              <a href="quizquestions/tv.html" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/movie-questions.png" class="card-img-top" alt="movies" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Movies</h5>
+              <a href="quizquestions/#" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/history-questions.png" class="card-img-top" alt="history" />
+            <div class="card-body">
+              <h5 class="card-title text-center">History</h5>
+              <a href="quizquestions/tv.html" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer font-small navbar-dark bg-dark pt-4">
 
-</body>
+  <!-- Footer Elements -->
+  <div class="container">
 
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+      <a class="nav-link" href="howtoplay.html">
+        How to play
+        </a>
+      </li>
+      <li class="list-inline-item">
+      <a class="nav-link" href="quizquestions.html">
+        Previous quizzes
+        </a>
+      </li>
+      <li class="list-inline-item">
+      <a class="nav-link" href="playnow.html">
+        Play now
+        </a>
+      </li>
+
+      <li class="list-inline-item">
+        <a href="https://www.facebook.com/quizvalley/" target="_blank" class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.twitch.tv/jbennison" target="_blank" class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitch"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://twitter.com/jamesbennison88" target="_blank" class="btn-floating btn-gplus mx-1">
+         <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+    </ul>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://quizvalley.com/"> quizvalley.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+  </body>
 </html>
