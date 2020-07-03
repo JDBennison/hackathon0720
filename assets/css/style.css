@@ -1,0 +1,41 @@
+/**----------------------------------------Be the host **/
+.host-title {
+  margin: auto;
+  max-width: 20rem;
+}
+
+.host-img {
+  width: 100%;
+  margin: auto;
+}
+
+.card-img-top {
+  height: 20vw;
+  object-fit: contain;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.card {
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+.card:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+ol li {
+    font-weight: bold;
+}
+
+/* fonts */
+
+/* header */
+
+.logo img {
+  width: 133px;
+  height: auto;
+}
