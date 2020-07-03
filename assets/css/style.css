@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**----------------------------------------Be the host **/
 .host-title {
     margin: auto;
@@ -7,4 +8,14 @@
 .host-img {
     width: 100%;
     margin: auto;
+=======
+/* fonts */
+
+
+/* header */
+
+.logo img {
+    width: 133px;
+    height: auto;
+>>>>>>> 3c1d3a934652eafaf351940e4f5af47de01a15c9
 }
