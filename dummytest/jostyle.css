@@ -10,87 +10,232 @@ a {
   text-decoration: none;
 }
 
+a,
+i,
+div,
+span,
+.rj-icon {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
 a:hover {
   font-size: 1.03rem;
   text-decoration: none;
   color: #f4f4f4;
 }
 
+main {
+  background: rgb(14, 7, 30);
+  background: -moz-linear-gradient(
+    top,
+    rgb(14, 7, 30) 0%,
+    rgb(80, 92, 175) 60%,
+    rgb(165, 60, 168) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgb(14, 7, 30) 0%,
+    rgb(80, 92, 175) 60%,
+    rgb(165, 60, 168) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgb(14, 7, 30) 0%,
+    rgb(80, 92, 175) 60%,
+    rgb(165, 60, 168) 100%
+  );
+}
+.live-brick-in {
+  position: relative;
+
+  padding: 10px;
+  border: 1px solid #704a48;
+  background-image: linear-gradient(rgba(14, 7, 30, 0.5), rgba(14, 7, 30, 0.5)),
+    url("/assets/images/brickwall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 10%;
+  border-radius: 6px;
+}
+
+.live-brick-out {
+  background: #000;
+  border: 2px inset #704a48;
+
+  margin: 4px;
+  border-radius: 16px;
+}
+
+.live-img-think {
+  background: linear-gradient(rgba(14, 7, 30, 0.4), rgba(165, 60, 168, 0.6)),
+    url("/assets/images/thinkingman.png");
+  background-repeat: round;
+
+  background-color: rgba(45, 60, 120, 0.9);
+  border: 2px outset #421a19;
+  border-radius: 16px;
+  padding: 12px;
+
+  background-position: 48%;
+  background-size: 280px;
+  width: 100%;
+  height: 630px;
+}
 
 .live-article-form {
-    background: url("/assets/images/brickwall.jpg") no-repeat;
-    background-color: red;
+  position: relative;
+  background: url("/assets/images/brickwall.jpg") no-repeat;
+  background-color: transparant;
   height: 600px;
+
   background-size: cover;
   background-position: center;
-  padding: 20px;
-  border-radius: 6px;
+  padding: 14px;
+  margin: 0 auto;
+  border: 2px inset #9fa8f1;
+  border-radius: 22px;
 }
 
 .live-form {
   font-family: "IBM Plex Mono", monospace;
-  color: #EDE8E8;
-  background-color: rgb(48, 64, 81, 0.5);
-  padding: 6px;
-  border: 1px solid #0e243e;
+  color: #ede8e8;
+  font-weight: 500;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  text-align: right;
+  background-color: rgba(55, 70, 218, 0.7);
+  padding: 3px 8px 6px 6px;
+  border: 2px solid #421a19;
   border-radius: 6px;
 }
-
+.live-form-submit {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: #ede8e8;
+  font-size: 1.3rem;
+  text-align: left;
+}
 .live-form-text {
+  /*     
   background: #775C54;
-/*
+  */
+  /*
   color: #304051;
 */
-color: #0E071E;
+  background-color: #c0b4ab;
+  color: #0e071e;
   width: 100%;
   height: 30px;
   margin: 0 auto;
-  border: 1px solid #1B404A;
-    border-radius: 2px;
+  border: 1px solid #1b404a;
+  border-radius: 2px;
 }
 
-.live-form label {
-    color: #0E071E;
+.live-form input {
+  color: #0e071e;
+  width: 100%;
 }
 .live-form-msg:hover,
 .live-form-text:hover {
-  border-color: #ce640a;
+  border-color: #dc50e0;
 }
 
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-  outline-color: #a4abb8;
+  outline-color: #face6d;
+  background-color: #d9c836;
 }
 
 .live-form-msg {
-  background: #9d5d3a;
-  color: #304051;
+  background-color: #c0b4ab;
+  color: #0e071e;
   width: 100%;
   height: 40px;
-
-  border: 1px solid #a4abb8;
+  margin: 0 auto;
+  border: 1px solid #1b404a;
+  border-radius: 2px;
 }
 
-
-
-
-
-
 .live-button {
-display: flex;
+  display: flex;
   position: relative;
-  width: 40%;
+  width: 10rem;
   justify-content: center;
   align-content: center;
-  margin: 8px;
+  margin: 4px;
+  padding: 6px;
+  font-size: 1.2rem;
+  font-weight: 500;
   letter-spacing: 3px;
   text-transform: uppercase;
+  background-color: #a0aeb8;
+  border: 3px outset #3746da;
+  border-radius: 22px;
 }
 
 .live-button:hover {
-  background: #ce640a;
-  border: 2px inset #a4abb8;
-  color: #454e53;
+  background: #3746da;
+  border: 2px inset #dc50e0;
+  color: #a0aeb8;
+}
+
+.live-iframe {
+  width: 100%;
+  height: 600px;
+  overflow-y: scroll;
+  background-image: url('/assets/images/quiz_valley_neon_logo.png');
+  background-size: cover;
+  background-position: center;
+  padding: 14px;
+  margin: 0 auto;
+  border: 2px inset #9fa8f1;
+  border-radius: 22px;
+}
+
+nav {
+    height: 80px;
+   background-color: rgba(45, 60, 120, 0.9);
+    color: #ede8e8;
+}
+
+.img-nav{
+    display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+
+padding: 30px;
+}
+.img-nav img{
+   width:200px;
+    height: 200px;
+          background-color: rgba(165,60,168, 0.2);
+      border: 4px double #A53CA8;  
+    border-radius: 50%;
+      transition: all 1.05s ease-in-out;
+  -webkit-transition: all 1.2s ease-in-out;
+  -moz-transition: all 1.2s ease-in-out;
+  -ms-transition: all 1.2s ease-in-out;
+  -o-transition: all 1.2s ease-in-out;
+  transition-duration: infinity;
+}
+
+.img-nav img:hover{
+   width:200px;
+    height: 200px;
+          background-color: rgba(165,60,168, 0.6);
+      border: 6px solid #40A83D;  
+    border-radius: 50%;
+    transform: rotate(-34deg);
+tr
 }
