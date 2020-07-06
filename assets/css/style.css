@@ -44,6 +44,12 @@ ol li {
     display: none;
 }
 
+.emoji-round {
+    width: 100%;
+}
+.emoji-answers {
+    margin: auto;
+}
 /* fonts */
 
 /* header */
