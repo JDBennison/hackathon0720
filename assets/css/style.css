@@ -1,3 +1,24 @@
+/**----------------------------------------Home **/
+.schedule {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.schedule-img {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.works {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.works-img {
+    width: 100%;
+}
+
 /**----------------------------------------Be the host **/
 .host-title {
   margin: auto;
