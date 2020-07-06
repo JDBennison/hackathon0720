@@ -20,9 +20,9 @@ footer {
   border-radius: 0 0 12px 12px;
   background-image: linear-gradient(rgba(14, 7, 30, 0.5), rgba(14, 7, 30, 0.5)),
     url("/assets/images/brickwall.jpg");
-  background-repeat: repeat-x;
-  background-size: 93% 196%;
-  background-position: -70% 14%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 70% 50%;
 }
 
 nav {
@@ -83,7 +83,7 @@ main {
   margin-top: 6px;
   margin-bottom: 10px;
   border-radius: 8px 8px 4px 4px;
-  height: 90vh;
+  height: 100%;
 }
 
 /* ____________________________________________________ other HTML elements _____________________________ */

@@ -1,3 +1,382 @@
+
+/* style sheet created for form test site and overall styling JosV */
+
+/* _________everything is here to be used so please use my code and leave a msg! ______________________ */
+
+body {
+  background-color: #080b2b;
+  color: #fafafa;
+}
+
+/* ____________________________________________________  Semantic  elements _____________________________ */
+
+header {
+  padding-bottom: 6px;
+}
+
+footer {
+  padding-bottom: 12px;
+
+  border: 1px solid #704a48;
+  border-radius: 0 0 12px 12px;
+  background-image: linear-gradient(rgba(14, 7, 30, 0.5), rgba(14, 7, 30, 0.5)),
+    url("/assets/images/brickwall.jpg");
+  background-repeat: none;
+background-size: 134%;
+    background-position: 36% -71%;
+}
+
+nav {
+  position: relative;
+  height: 70px;
+  background: rgb(207, 189, 180);
+  background: -moz-linear-gradient(
+    top,
+    rgb(207, 189, 180) 0%,
+    rgb(96, 60, 32) 61%,
+    rgb(0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgb(207, 189, 180) 0%,
+    rgb(96, 60, 32) 61%,
+    rgb(0, 0, 0) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgb(207, 189, 180) 0%,
+    rgb(96, 60, 32) 61%,
+    rgb(0, 0, 0) 100%
+  );
+  color: #ede8e8;
+  z-index: 3;
+  margin: 2px;
+  border-radius: 4px 4px 12px 12px;
+
+  border-top: 2px inset #9fa8f1;
+  border-right: 2px outset #9fa8f1;
+  border-left: 2px outset #9fa8f1;
+}
+
+main {
+  background: rgb(14, 7, 30);
+  background: -moz-linear-gradient(
+    top,
+    rgb(14, 7, 30) 0%,
+    rgb(80, 92, 175) 60%,
+    rgb(165, 60, 168) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgb(14, 7, 30) 0%,
+    rgb(80, 92, 175) 60%,
+    rgb(165, 60, 168) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgb(14, 7, 30) 0%,
+    rgb(80, 92, 175) 60%,
+    rgb(165, 60, 168) 100%
+  );
+  transform: translateY(4.2rem);
+  padding-top: 6px;
+  padding-bottom: 10px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border-radius: 8px 8px 4px 4px;
+  min-height: 90vh;
+}
+
+/* ____________________________________________________ other HTML elements _____________________________ */
+
+a,
+i,
+div,
+span,
+h4 {
+  color: #face6d;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  font-size: 1.03rem;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+h4 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+/* _____________________ custom bootstrap dropdown navigation ___________________________*/
+
+.dropdown-toggle:after {
+  display: none;
+}
+
+.dropdown-toggle i {
+  font-size: 22px;
+  color: #aa3e09;
+  background-color: #dab090;
+  padding: 6px 8px;
+  border: 2px inset #9fa8f1;
+  border-radius: 6px;
+}
+.dropdown-toggle i:hover {
+  background-color: #aa3e09;
+  color: #dab090;
+}
+
+.dropdown-menu {
+  position: relative;
+  background-color: rgba(170, 62, 9, 0.9);
+
+  color: #0e071e;
+
+  border: 2px inset #9fa8f1;
+  border-radius: 12px;
+  padding: 6px 8px 6px 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+  z-index: 5;
+}
+
+.dropdown-item {
+  display: flex;
+  height: 42px;
+  background-color: rgba(218, 176, 144, 0.8);
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #421a19;
+  border-radius: 6px;
+  padding: 4px 10px 4px 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 22px;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-item:hover {
+  background: rgba(170, 62, 9, 0.9);
+  color: #f9af8b;
+  border: 1px solid #f9af8b;
+}
+.dropdown-item:active {
+  background: rgba(170, 62, 9, 0.9);
+  color: #f9af8b;
+}
+
+/* _________________________________ brick background container , to be used somewhere else..?  _________________________________ 
+.live-brick-in {
+  position: relative;
+
+  padding: 10px;
+  border: 1px solid #704a48;
+  background-image: linear-gradient(rgba(14, 7, 30, 0.5), rgba(14, 7, 30, 0.5)),
+    url("/assets/images/brickwall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 10%;
+  border-radius: 6px;
+}
+
+.live-brick-out {
+  background: #000;
+  border: 2px inset #704a48;
+
+  margin: 4px;
+  border-radius: 16px;
+}
+
+_______________________________________________________________________________________________________ */
+
+/* _________________________________background container _________________________________ */
+
+.live-img-think {
+  background: linear-gradient(rgba(14, 7, 30, 0.4), rgba(165, 60, 168, 0.6)),
+    url("/assets/images/thinkingman.png");
+  background-repeat: round;
+
+  background-color: rgba(45, 60, 120, 0.9);
+  border: 2px outset #421a19;
+  border-radius: 16px;
+  padding: 12px;
+
+  background-position: 48%;
+  background-size: 280px;
+  width: 100%;
+  height: 100%;
+}
+/* _________________________________ brickwall background container for form _________________________________ */
+.live-article-form {
+  position: relative;
+  background: url("/assets/images/brickwall.jpg") no-repeat;
+  background-color: transparant;
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+  padding: 14px;
+  margin: 0 auto;
+  border: 2px inset #9fa8f1;
+  border-radius: 22px;
+}
+/* _________________________________ form container with opaque bgcolor  _________________________________ */
+.live-form {
+  font-family: "IBM Plex Mono", monospace;
+  color: #ede8e8;
+  font-weight: 500;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  text-align: right;
+  background-color: rgba(55, 70, 218, 0.7);
+  padding: 3px 8px 6px 6px;
+  border: 2px solid #421a19;
+  border-radius: 6px;
+  height: 100%;
+}
+/* _________________________________ form input styles  _________________________________ */
+
+.live-form-text {
+  /*     
+  background: #775C54;
+  */
+  /*
+  color: #304051;
+*/
+  background-color: #c0b4ab;
+  color: #0e071e;
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  border: 1px solid #1b404a;
+  border-radius: 2px;
+}
+
+.live-form-submit {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: #ede8e8;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.live-form input {
+  color: #0e071e;
+  width: 100%;
+}
+.live-form-msg:hover,
+.live-form-text:hover {
+  border-color: #dc50e0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline-color: #face6d;
+  background-color: #d9c836;
+}
+
+.live-form-msg {
+  background-color: #c0b4ab;
+  color: #0e071e;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px solid #1b404a;
+  border-radius: 2px;
+}
+/* _________________________________ custom buttons   _________________________________ */
+.live-button {
+  display: flex;
+  position: relative;
+  width: 10rem;
+  justify-content: center;
+  align-content: center;
+  margin: 4px;
+  padding: 6px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #a0aeb8;
+  border: 3px outset #3746da;
+  border-radius: 22px;
+}
+
+.live-button:hover {
+  background: #3746da;
+  border: 2px inset #dc50e0;
+  color: #a0aeb8;
+}
+/* _________________________________ iframe try out (not in page)  _________________________________ */
+.live-iframe {
+  width: 100%;
+  height: 600px;
+  overflow-y: scroll;
+  background-image: url("/assets/images/quiz_valley_neon_logo.png");
+  background-size: cover;
+  background-position: center;
+  padding: 14px;
+  margin: 0 auto;
+  border: 2px inset #9fa8f1;
+  border-radius: 22px;
+}
+
+/* _________________________________ logo with transistions tryout   _________________________________ */
+.img-nav {
+  position: absolute;
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 4;
+  top: 3.5rem;
+  left: 8rem;
+}
+.img-nav img {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(165, 60, 168, 0.2);
+  border: 4px double #a53ca8;
+  border-radius: 50%;
+  transition: all 1.05s ease-in-out;
+  -webkit-transition: all 1.2s ease-in-out;
+  -moz-transition: all 1.2s ease-in-out;
+  -ms-transition: all 1.2s ease-in-out;
+  -o-transition: all 1.2s ease-in-out;
+  transition-duration: infinity;
+}
+
+.img-nav img:hover {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(165, 60, 168, 0.6);
+  border: 6px solid #40a83d;
+  border-radius: 50%;
+  transform: rotate(-34deg);
+}
+
+/* __________________ end of styling by Jos V _______________ */
+
+
+
+
+
 /**----------------------------------------Home **/
 .schedule {
     padding-top: 3rem;
@@ -18,7 +397,6 @@
 .works-img {
     width: 100%;
 }
-
 /**----------------------------------------Be the host **/
 .host-title {
   margin: auto;
@@ -89,3 +467,10 @@ ol li {
   width: 133px;
   height: auto;
 }
+
+
+
+
+
+
+
