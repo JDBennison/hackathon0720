@@ -57,7 +57,9 @@ ol li {
     padding-bottom: 10px;
 }
 
-
+.fa-child {
+    color: red;
+}
 /* fonts */
 
 /* header */
