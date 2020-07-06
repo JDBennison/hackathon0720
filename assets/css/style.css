@@ -50,6 +50,14 @@ ol li {
 .emoji-answers {
     margin: auto;
 }
+
+.picture-round{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 10px;
+}
+
+
 /* fonts */
 
 /* header */
