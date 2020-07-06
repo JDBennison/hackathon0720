@@ -1,3 +1,4 @@
+
 /* style sheet created for form test site and overall styling JosV */
 
 /* _________everything is here to be used so please use my code and leave a msg! ______________________ */
@@ -376,8 +377,26 @@ button:focus {
 
 
 
+/**----------------------------------------Home **/
+.schedule {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
+.schedule-img {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
+.works {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.works-img {
+    width: 100%;
+}
 /**----------------------------------------Be the host **/
 .host-title {
   margin: auto;
@@ -424,6 +443,22 @@ ol li {
     display: none;
 }
 
+.emoji-round {
+    width: 100%;
+}
+.emoji-answers {
+    margin: auto;
+}
+
+.picture-round{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 10px;
+}
+
+.fa-child {
+    color: red;
+}
 /* fonts */
 
 /* header */
@@ -432,3 +467,10 @@ ol li {
   width: 133px;
   height: auto;
 }
+
+
+
+
+
+
+

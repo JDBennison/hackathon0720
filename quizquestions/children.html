@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+    <title>Quiz Valley</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="logo">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              class="d-lg-block img-fluid"
+              src="../assets/images/quiz_valley_neon_logo.png"
+              alt="Quiz Valley logo"
+          /></a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../howtoplay.html">
+                How to play
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../quizquestions.html">
+                Host your own
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../live.html">Live</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../brainteasers.html">Brainteaser</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Children's Quiz Questions</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-right">
+          <button type="button" class="btn btn-primary" id="answers">Answers</button>
+        </div>
+      </div>
+      <table class="table">
+        <tr>
+          <th scope="row">1.</th>
+          <td>
+            How many years are there in a millennium?
+          </td>
+          <td class="answer">1,000</td>
+        </tr>
+        <tr>
+          <th scope="row">2.</th>
+          <td>
+            What magical item does Aladdin use to fly around on?
+          </td>
+          <td class="answer">Carpet</td>
+        </tr>
+        <tr>
+          <th scope="row">3.</th>
+          <td>
+            Where does the UK prime minister live?
+          </td>
+          <td class="answer">10 Downing Street</td>
+        </tr>
+        <tr>
+          <th scope="row">4.</th>
+          <td>
+           Which travels faster, light or sound?
+          </td>
+          <td class="answer">Light</td>
+        </tr>
+        <tr>
+          <th scope="row">5.</th>
+          <td>
+            How many wives did Henry VIII have?
+          </td>
+          <td class="answer">6</td>
+        </tr>
+        <tr>
+          <th scope="row">6.</th>
+          <td>
+            How many sides does an septagon have?
+          </td>
+          <td class="answer">7</td>
+        </tr>
+        <tr>
+          <th scope="row">7.</th>
+          <td>
+            What historic wall runs along the border between England and Scotland?
+          </td>
+          <td class="answer">Hadrian's Wall</td>
+        </tr>
+        <tr>
+          <th scope="row">8.</th>
+          <td>
+            Who sang Shake It Off?
+          </td>
+          <td class="answer">Taylor Swift</td>
+        </tr>
+        <tr>
+          <th scope="row">9.</th>
+          <td>
+            Which artist painted the Mona Lisa?
+          </td>
+          <td class="answer">Leonardo Da Vinci</td>
+        </tr>
+        <tr>
+          <th scope="row">10.</th>
+          <td>
+            What song is sung more than any other in the world?
+          </td>
+          <td class="answer">Happy Birthday</td>
+        </tr>
+      </table>
+    </section>
+    <footer class="page-footer font-small navbar-dark bg-dark pt-4">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a class="nav-link" href="howtoplay.html">
+              How to play
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="nav-link" href="quizquestions.html">
+              Previous quizzes
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="nav-link" href="playnow.html">
+              Play now
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a
+              href="https://www.facebook.com/quizvalley/"
+              target="_blank"
+              class="btn-floating btn-fb mx-1"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.twitch.tv/jbennison"
+              target="_blank"
+              class="btn-floating btn-tw mx-1"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://twitter.com/jamesbennison88"
+              target="_blank"
+              class="btn-floating btn-gplus mx-1"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- Social buttons -->
+      </div>
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="https://quizvalley.com/"> quizvalley.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="../scripts/js/answer.js"></script>
+  </body>
+</html>
