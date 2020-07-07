@@ -398,6 +398,43 @@ button:focus {
     width: 100%;
 }
 /**----------------------------------------Be the host **/
+
+.connect-links{
+    margin:10px 0;
+	padding:10px 0;
+    text-align: center;
+}
+
+.connect-links li {
+    display:inline;
+	padding:0;
+	margin:0;
+}
+
+.connect-links a {
+    padding: 10px;
+}
+
+.connect-links li a i {
+    width: 8vw;
+    height: 8vw;
+    padding: 3.5vw 0;
+    border-radius: 50%;
+    font-size: 5vw;
+    line-height: 7px;
+    text-align: center;
+    background: #3746DA;
+}
+
+.connect-links li a i:hover {
+    background: #dc50e0;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+/**----------------------------------------Be the host **/
 .host-title {
   margin: auto;
   max-width: 20rem;
@@ -405,7 +442,12 @@ button:focus {
 
 .host-img {
   width: 100%;
-  margin: auto;
+  filter: invert(100%);
+}
+
+.margin-auto {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .card-img-top {
@@ -427,6 +469,10 @@ button:focus {
 }
 
 ol li {
+    font-weight: bold;
+}
+
+.prizes li {
     font-weight: bold;
 }
 

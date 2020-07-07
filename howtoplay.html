@@ -1,11 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+		integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Quiz Valley</title>
 </head>
+
 <body>
-    
+	<header class="fixed-top">
+		<nav class="navbar navbar-expand">
+
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown active">
+					<a class="nav-item dropdown-toggle" href="#" id="main-nav-drop" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-bars"></i>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="main-nav-drop">
+						<a class="dropdown-item" href="index.html">Home <span class="sr-only">(current)</span></a>
+						<a class="dropdown-item" href="howtoplay.html">How to play </a>
+						<a class="dropdown-item" href="quizquestions.html">Host your own</a>
+						<a class="dropdown-item" href="live.html">Live</a>
+						<a class="dropdown-item" href="brainteasers.html">Brainteaser</a>
+					</div>
+				</li>
+			</ul>
+			<!-- ________________________________________________ desktop nav _____________________________________________-->
+			<div class="d-none d-sm-block ml-auto">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">
+							<h4>Home</h4> <span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="howtoplay.html">
+							<h4>How to play</h4>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="quizquestions.html">
+							<h4>Host your own</h4>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="live.html">
+							<h4>Live</h4>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="brainteasers.html">
+							<h4>Brainteaser</h4>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+    <main class="container-fluid">
+    <section class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img
+            src="assets/images/how_it_works.png"
+            alt="How it works"
+            class="host-title"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-8">
+          <p>Quizzes in pubs are probably not returning for some time so why not join in the fun with Quiz Valley. You can play at home or remotely with friends and family of all ages. And even better, its completely free!</p>
+        <p>Quiz Valley have scoured the globe to find prizes for you and your family to enjoy in lockdown, or to play after lockdown so you have a little something to look forward to, all of them sourced from independent businesses.</p>
+         </div>
+        <div class="col-4 d-none d-md-block margin-auto">
+          <img
+            src="assets/images/woman-laptop.png"
+            alt="person on laptop"
+            class="host-img"
+          />
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-12">
+      <p>Previous prizes have included:</p>
+        <ul class="prizes">
+        <li>Escape Rooms</li>
+        <p>From Lucardo in Manchester, to Bewilder Box in Brighton. As soon as they reopen you are free to use your voucher for a free game!</p>
+        <li>Online Games</li>
+        <p>The afforementioned escape rooms have now started providing online puzzle solving games (which we love) so you could play this straight away with your loved ones if you win!</p>
+        <li>Alcohol!</li>
+        <p>For those old enough we have been provided with a few bottles of delicious gin from local distillery Slake Spirits</p>
+        <li>Other Random Experiences</li>
+        <p>We have provided such diverse things as a microwavable ommlette maker, all the way to an indoor skydiving experience. You could win literally anything week after week.</p>
+        </ul>
+        <p>And did we mention it was free?</p>
+      <p>Heres how it works:</p>
+          <ol>
+          <li>Gather your team</li>
+          <p>You can play with the people you live with if you like but if you want to connect with your family around the world, that is fine too! We recommend no more than six people per team though, otherwise you get a lot of people shouting over each other and no one feels like they've been heard. Also less people means its easier to share the loot.</p>
+          <li>Decide on a team leader</li>
+          <p>Only one of you needs to fill out the answers online so it is best to decide who it is who will be writing that. It also means that they can have final say when there are various people arguing over answers. We recommend picking someone who has good spelling skills and good diplomancy skills.</p>
+          <li>Connect with your team</li>
+          <p>There are various different ways to connect with your team. Below are a few options that you can explore though often, WhatsApp is the simplest, or Zoom if you want to look at everyone's faces.</p>
+          <ul class="connect-links">
+            <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://zoom.us/" target="_blank"><i class="fas fa-video"></i></a></li>
+            <li><a href="https://www.skype.com/en/" target="_blank"><i class="fab fa-skype"></i></a></li>
+            <li><a href="https://meet.google.com/" target="_blank"><i class="fab fa-google"></i></a></li>
+          </ul>
+          <li>Head to the Live page at the appointed time</li>
+          <p>Check our schedule to make sure what time the quiz is on. Our times are in GMT so if playing with people in another country, be sure to adjust accordingly.</p>
+          </ol>
+      </div>
+      </div>
+    </section>
+</main>
+	<footer class="page-footer font-small navbar-dark bg-dark pt-4">
+		<!-- Footer Elements -->
+		<div class="container">
+			<!-- Social buttons -->
+			<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+					<a class="nav-link" href="howtoplay.html">
+						How to play
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="nav-link" href="quizquestions.html">
+						Previous quizzes
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="nav-link" href="playnow.html">
+						Play now
+					</a>
+				</li>
+
+				<li class="list-inline-item">
+					<a href="https://www.facebook.com/quizvalley/" target="_blank" class="btn-floating btn-fb mx-1">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.twitch.tv/jbennison" target="_blank" class="btn-floating btn-tw mx-1">
+						<i class="fab fa-twitch"></i>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://twitter.com/jamesbennison88" target="_blank" class="btn-floating btn-gplus mx-1">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+			</ul>
+			<!-- Social buttons -->
+		</div>
+		<!-- Footer Elements -->
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">
+			© 2020 Copyright:
+			<a href="https://quizvalley.com/"> quizvalley.com</a>
+		</div>
+		<!-- Copyright -->
+	</footer>
 </body>
+
 </html>
