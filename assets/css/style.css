@@ -489,3 +489,7 @@ ol li {
   background-color: rgb(217, 200, 54);
   color: black !important;
 }
+
+.card-title {
+  color: #e7bd62;
+}
