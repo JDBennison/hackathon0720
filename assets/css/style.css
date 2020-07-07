@@ -467,6 +467,10 @@ ol li {
 
 /**----------------------------------------Brainteasers **/
 
+#brainteaser-page {
+  background-color: #f5f5f5;
+}
+
 .bt-text {
     color: black;
 }
