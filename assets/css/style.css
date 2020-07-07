@@ -4,10 +4,7 @@
 
 /* _________everything is here to be used so please use my code and leave a msg! ______________________ */
 
-body {
-  background-color: #080b2b;
-  color: #fafafa;
-}
+
 
 /* ____________________________________________________  Semantic  elements _____________________________ */
 
@@ -59,7 +56,7 @@ nav {
   border-left: 2px outset #9fa8f1;
 }
 
-main {
+/*main {
   background: rgb(14, 7, 30);
   background: -moz-linear-gradient(
     top,
@@ -86,7 +83,7 @@ main {
   margin-bottom: 10px;
   border-radius: 8px 8px 4px 4px;
   min-height: 90vh;
-}
+}*/
 
 /* ____________________________________________________ other HTML elements _____________________________ */
 
@@ -537,9 +534,31 @@ ol li {
   height: auto;
 }
 
+/**----------------------------------------Brainteasers **/
 
+#brainteaser-page {
+  background-color: #f5f5f5;
+}
 
+.bt-text {
+    color: black;
+}
 
+.btn--answer {
+  background-color: lightblue;
+  color: black !important;
+}
 
+.btn--hint {
+  background-color: #face8b;
+  color: black !important;
+}
 
+.btn--close {
+  background-color: rgb(217, 200, 54);
+  color: black !important;
+}
 
+.card-title {
+  color: #e7bd62;
+}

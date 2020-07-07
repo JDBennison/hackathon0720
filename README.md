@@ -28,6 +28,7 @@ Hi! this is a readme , so write something to read ;)
 #### 1.3 Features
 
 + Tell something bla bla yak yak this that placeholder lorem ipsum etc..
++ Future techs: Facebook link on modals for brainteasers. 
 
 ---
 #### 1.4 Mockups

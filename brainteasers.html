@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    
+    <title>Quiz Valley - Brainteasers test</title>
+  </head>
+
+  <body>
+    <!-- _____________________________ Navigation dropdown and text nav (block on small) ______________________-->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand">
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-item dropdown-toggle"
+              href="#"
+              id="main-nav-drop"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bars"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="main-nav-drop">
+              <a class="dropdown-item" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="howtoplay.html">How to play </a>
+              <a class="dropdown-item" href="quizquestions.html">Host your own</a>
+              <a class="dropdown-item" href="live.html">Live</a>
+              <a class="dropdown-item" href="brainteasers.html">Brainteaser</a>
+            </div>
+          </li>
+        </ul>
+<!-- ________________________________________________ desktop nav _____________________________________________-->
+        <div class="d-none d-sm-block ml-auto">
+        <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html"><h4>Home</h4> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="howtoplay.html"><h4>How to play</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quizquestions.html" ><h4>Host your own</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="live.html"><h4>Live</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="brainteasers.html"><h4>Brainteaser</h4></a>
+      </li>
+    </ul>
+        </div>
+          
+      </nav>
+   
+    </header>
+<main id="brainteaser-page" class="container-fluid bg-custom">
+    <section class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img
+            src="assets/images/brainteasers.png"
+            alt="brainteasers"
+            class="brainteaser-title"  ready
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-8">
+          <p class="bt-text">Try our weekly brainteaser challenge.</p>
+          <p class="bt-text">
+           Each week we put up nine new brainteasers for all ages. Try them with your friends and family. Race the clock to solve them. 
+          </p>
+          <p class="bt-text">
+            Check for the age appropriate brainteasers too, they're marked with the <i class="fas fa-child"></i> so you can work with these as a family or challenge your firends.
+          </p>
+          
+        </div>
+        <div class="col-4 d-none d-md-block">
+          <img
+            src="assets/images/brainteaser-human.png"
+            alt="person solving brainteasers"
+            class="host-img"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="container">
+
+
+      <div class="row">
+        <div class="col-12">
+          <h2>Quiz Questions</h2>
+          <p class="bt-text">
+            Work through the brainteasers succinctly or choose one, choose any, choose them all. Good luck at solving them! 
+          </p>
+        </div>
+      </div>      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded" 
+                data-toggle="modal" 
+                data-target="#bt1">
+            <img
+              src="assets/images/dice.png"
+              class="card-img-top"
+              alt="dice brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Brainteaser 1</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded" 
+                data-toggle="modal" 
+                data-target="#bt2">
+            <img
+              src="assets/images/cube.png"
+              class="card-img-top"
+              alt="cuboid brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Brainteaser 2</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded"
+              data-toggle="modal" 
+              data-target="#bt3">
+            <img
+              src="assets/images/feather.png"
+              class="card-img-top"
+              alt="feather - children's brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Brainteaser 3 <i class="fas fa-child"></i></h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded" 
+              data-toggle="modal"
+              data-target="#bt4">
+            <img
+              src="assets/images/fire.png"
+              class="card-img-top"
+              alt="fire brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Brainteaser 4</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded"
+              data-toggle="modal"
+              data-target="#bt5">
+            <img
+              src="assets/images/sock.png"
+              class="card-img-top"
+              alt="Children's brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                Brainteaser 5 <i class="fas fa-child"></i>
+              </h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded"
+              data-toggle="modal"
+              data-target="#bt6">
+            <img
+              src="assets/images/basket.png"
+              class="card-img-top"
+              alt="Basket brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Brainteaser 6</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded" 
+              data-toggle="modal"
+              data-target="#bt7">
+            <img
+              src="assets/images/fishingboat.png"
+              class="card-img-top"
+              alt="Fishing boat brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Brainteaser 7</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded" 
+              data-toggle="modal"
+              data-target="#bt8">
+            <img
+              src="assets/images/cardboard-box.png"
+              class="card-img-top"
+              alt="Cardboard-box brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Brainteaser 8</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card shadow bg-white rounded" 
+              data-toggle="modal"
+              data-target="#bt9">
+            <img
+              src="assets/images/boat.png"
+              class="card-img-top"
+              alt="Children's brainteaser"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                Brainteaser 9 <i class="fas fa-child"></i>
+              </h5>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brainteaser Modals -->
+
+    <!-- Modal #bt1 -->
+<div class="modal fade" id="bt1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="bt-text">I have three special four-sided dice.
+
+They have one letter on each side.
+
+When I roll them together I get three random letters which I try to rearrange into a word. In my eight goes so far I have made the words:
+
+CAT, SON, POD, RIG, PEG, TAP, DIN, APE
+
+What are the letters on each dice?</p>
+      </div>
+      <div class="modal-footer">
+        
+        <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="Search for pairs first, then stack logically.">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="CNPR AGDS EIOT">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Modal #bt2 -->
+<div class="modal fade" id="bt2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="bt-text">A solid, four-inch cube of wood is coated with blue paint on all six sides.
+
+Then the cube is cut into smaller one-inch cubes.
+
+These new one-inch cubes will have either three blue sides, two blue sides, one blue side, or no blue sides. How many of each will there be?</p>
+      </div>
+      <div class="modal-footer">
+      <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="Get a pen and paper, and visualise the sides!">Hint</a>
+      <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="There are 8 with three sides colored, 24 with two sides colored, 24 with one side colored, and 8 with no sides colored.">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal #bt3 -->
+<div class="modal fade" id="bt3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 3 <i class="fas fa-child"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="bt-text">It’s as light as a feather, but the strongest person can’t hold it for more than five minutes. What is it?</p>
+      </div>
+      <div class="modal-footer">
+        <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="What do you have to hold when you go diving.">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="Your breath.">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal #bt4 -->
+<div class="modal fade" id="bt4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 4</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="bt-text">A man is stranded on an island covered in forest.
+
+One day, when the wind is blowing from the west, lightning strikes the west end of the island and sets fire to the forest. The fire is very violent, burning everything in its path, and without intervention the fire will burn the whole island, killing the man in the process.
+
+There are cliffs around the island, so he cannot jump off.
+
+How can the man survive the fire? (There are no buckets or any other means to put out the fire).</p>
+      </div>
+      <div class="modal-footer">
+      <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="Remember the fox, chicken and bag of grain question?">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="Get a branch and set it on fire. Go to the east side of the island and set that on fire. The wind will burn out a big portion of the east side of the island with you in the middle not on fire. When the east side of the island is all gone, go stand in that bit and the fire from the west side will burn out.">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal #bt5 -->
+<div class="modal fade" id="bt5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 5 <i class="fas fa-child"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="bt-text"> Your sock drawer only contains 18 white socks and 18 blue socks. How many times do you need to reach inside the drawer and take out a sock to guarantee a matching pair?</p>
+      </div>
+      <div class="modal-footer">
+      <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="How many socks make a pair">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="The third sock, no matter what the first two were, will match at least one of the first two socks you pulled out.">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal #bt6 -->
+<div class="modal fade" id="bt6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 6</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="bt-text"> You have a basket containing ten apples. You have ten friends, who each desire an apple. You give each of your friends one apple.
+
+Now all your friends have one apple each, yet there is an apple remaining in the basket.
+
+How?</p>
+      </div>
+      <div class="modal-footer">
+      <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="You have to visualise this one. Giving is caring.">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="When you give your last friend the last apple you also give him the basket with it in.">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal #bt7 -->
+<div class="modal fade" id="bt7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 7</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="bt-text">There is a fishing trawler, with a ladder in it, leaning against a wall at the harbor. There are five oars and two fishing nets in the trawler. The distance between two consecutive steps on the ladder is 1 meter. If waves lashing against the wall rise half meter in every half hour, in how much time will six steps of the ladder get under the waves?</p>
+      </div>
+      <div class="modal-footer">
+      <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="Think about boyancy.">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="The trawler rises with the waves, so no steps will go under water.">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal #bt8 -->
+<div class="modal fade" id="bt8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 8</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="bt-text">Follow these steps and see if you can figure this out.
+
+1) Get a brown, cardboard box.
+2) Get purple, orange, and turquoise paints.
+3) Paint the box orange.
+4) Paint on purple spots.
+5) Paint on turquoise stripes.
+7) Turn it upside down.
+8) Lie on your side.
+
+What is missing from this sequence?</p>
+      </div>
+      <div class="modal-footer">
+      <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="Act it out!">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="There is no step 6.">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal #bt9 -->
+<div class="modal fade" id="bt9" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brainteaser 9 <i class="fas fa-child"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="bt-text"> A farmer is traveling with a fox, a goose, and a bag of beans. During his journey, he comes across a river with a boat to cross it.
+
+The farmer can only fit one thing in the boat with him at a time. If left alone together, the fox will eat the goose or the goose will eat the beans. How does the farmer get everything across the river safely?</p>
+      </div>
+      <div class="modal-footer">
+      <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="What wont the fox eat?">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="
+    The farmer brings the goose across the river first (if he leaves the goose alone, it will either eat the beans or be eaten by the fox).
+
+    The farmer brings either the fox or the beans across and leaves the other one alone.
+
+    Now the farmer has two items on the other side of the river, including the goose. If he leaves the goose again, the same problem will occur. So, the farmer must bring the goose back to the other side.
+
+    The farmer brings the other item back (either the fox or the beans) and leaves the goose alone again. The fox and the beans are now on the other side of the river.
+
+    The farmer returns and brings the goose across the river again.">Answer</a>
+        <button type="button" class="btn btn-lg btn--close" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <footer class="page-footer font-small navbar-dark bg-dark pt-4">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a class="nav-link" href="howtoplay.html">
+              How to play
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="nav-link" href="quizquestions.html">
+              Previous quizzes
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="nav-link" href="playnow.html">
+              Play now
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a
+              href="https://www.facebook.com/quizvalley/"
+              target="_blank"
+              class="btn-floating btn-fb mx-1"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.twitch.tv/jbennison"
+              target="_blank"
+              class="btn-floating btn-tw mx-1"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://twitter.com/jamesbennison88"
+              target="_blank"
+              class="btn-floating btn-gplus mx-1"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- Social buttons -->
+      </div>
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="https://quizvalley.com/"> quizvalley.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    </main>
+   
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   <script src="javascript/javascript.js"></script>
+  </body>
+</html>
