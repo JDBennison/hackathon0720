@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 
 /* style sheet created for form test site and overall styling JosV */
 
@@ -378,6 +379,28 @@ button:focus {
 
 
 /**----------------------------------------Home **/
+
+.container-fluid{
+    padding: 0
+}
+
+.welcome{
+    background-image: url(../images/brickwall.jpg);
+    overflow: hidden;
+}
+
+.welcome-text{
+   font-family: 'Galada', cursive;
+   font-size: 4vw;
+   color: white;
+    margin-bottom: 0;
+}
+
+.welcome-logo {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
 .schedule {
     padding-top: 3rem;
     padding-bottom: 3rem;
