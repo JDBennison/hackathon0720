@@ -480,3 +480,8 @@ ol li {
   background-color: #face8b;
   color: black !important;
 }
+
+.btn--close {
+  background-color: rgb(217, 200, 54);
+  color: black !important;
+}
