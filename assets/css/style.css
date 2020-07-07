@@ -471,7 +471,12 @@ ol li {
     color: black;
 }
 
-.modal-btn-1 {
-  box-shadow: black;
-  background-color: chartreuse;
+.btn--answer {
+  background-color: lightblue;
+  color: black !important;
+}
+
+.btn--hint {
+  background-color: #face8b;
+  color: black !important;
 }

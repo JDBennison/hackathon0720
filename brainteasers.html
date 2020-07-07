@@ -82,7 +82,6 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-8">
-          <button id="testjava">TEST</button>
           <p class="bt-text">Try our weekly brainteaser challenge.</p>
           <p class="bt-text">
            Each week we put up nine new brainteasers for all ages. Try them with your friends and family. Race the clock to solve them. 
@@ -287,10 +286,11 @@ CAT, SON, POD, RIG, PEG, TAP, DIN, APE
 What are the letters on each dice?</p>
       </div>
       <div class="modal-footer">
-        
-        <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+        <!-- <button type="button" class="btn btn-lg btn-hint" data-toggle="popover" title="Here is your hint!" data-content="WE HAVENT WRITTEN A AHINT YET">Click for a hint</button> -->
+        <!-- <button type="button" class="btn btn-lg btn-answer" data-toggle="popover" title="Here is your answer!" data-content="CNPR AGDS EIOT">Click for answer</button> -->
+        <a tabindex="0" class="btn btn-lg btn--hint" role="button" data-toggle="popover" data-trigger="focus" title="Hint" data-content="WRITE A HINT PLEASE">Hint</a>
+        <a tabindex="0" class="btn btn-lg btn--answer" role="button" data-toggle="popover" data-trigger="focus" title="Answer" data-content="CNPR AGDS EIOT">Answer</a>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        
       </div>
     </div>
   </div>
