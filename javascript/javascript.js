@@ -10,9 +10,9 @@
 //     $('[data-toggle="popover"]').popover()
 //   })
 
-$(document).ready(function () {
-    console.log("LETS GO")
-});
+// $(document).ready(function () {
+//     console.log("LETS GO")
+// });
 
 $('#testjava').click(function () { 
     alert("reached") 
