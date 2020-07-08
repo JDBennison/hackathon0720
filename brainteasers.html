@@ -5,68 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
-      />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     
     <title>Quiz Valley - Brainteasers test</title>
   </head>
 
   <body>
     <!-- _____________________________ Navigation dropdown and text nav (block on small) ______________________-->
-    <header class="fixed-top">
-      <nav class="navbar navbar-expand">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand logo" href="index.html">
+    <img src="assets/images/quiz_valley_neon_logo.png" alt="Quiz Valley Logo">
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown active">
-            <a
-              class="nav-item dropdown-toggle"
-              href="#"
-              id="main-nav-drop"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <i class="fas fa-bars"></i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="main-nav-drop">
-              <a class="dropdown-item" href="index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="dropdown-item" href="howtoplay.html">How to play </a>
-              <a class="dropdown-item" href="quizquestions.html">Host your own</a>
-              <a class="dropdown-item" href="live.html">Live</a>
-              <a class="dropdown-item" href="brainteasers.html">Brainteaser</a>
-            </div>
-          </li>
-        </ul>
-<!-- ________________________________________________ desktop nav _____________________________________________-->
-        <div class="d-none d-sm-block ml-auto">
-        <ul class="navbar-nav">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="../index.html"><h4>Home</h4> <span class="sr-only">(current)</span></a>
+        <a class="nav-link home hvr-pulse" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="howtoplay.html"><h4>How to play</h4></a>
+      <li class="nav-item hvr-pulse">
+        <a class="nav-link play" href="howtoplay.html">Rules</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="quizquestions.html" ><h4>Host your own</h4></a>
+      <li class="nav-item hvr-pulse">
+        <a class="nav-link host" href="quizquestions">DIY</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="live.html"><h4>Live</h4></a>
+      <li class="nav-item hvr-pulse">
+        <a class="nav-link live" href="playnow.html">Live</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="brainteasers.html"><h4>Brainteaser</h4></a>
+      <li class="nav-item hvr-pulse">
+        <a class="nav-link brainteaser" href="brainteasers.html">Brainteasers</a>
       </li>
+      
     </ul>
-        </div>
-          
-      </nav>
+    
+  </div>
+</nav>
    
     </header>
 <main id="brainteaser-page" class="container-fluid bg-custom">
@@ -95,7 +75,7 @@
           <img
             src="assets/images/brainteaser-human.png"
             alt="person solving brainteasers"
-            class="host-img"
+            class="bt-img"
           />
         </div>
       </div>
@@ -519,20 +499,20 @@ The farmer can only fit one thing in the boat with him at a time. If left alone 
         <!-- Social buttons -->
         <ul class="list-unstyled list-inline text-center">
           <li class="list-inline-item">
-            <a class="nav-link" href="howtoplay.html">
-              How to play
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="nav-link" href="quizquestions.html">
-              Previous quizzes
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="nav-link" href="playnow.html">
-              Play now
-            </a>
-          </li>
+					<a class="nav-link play" href="howtoplay.html">
+						How to play
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="nav-link host" href="quizquestions.html">
+						Previous quizzes
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a class="nav-link live" href="playnow.html">
+						Play now
+					</a>
+				</li>
 
           <li class="list-inline-item">
             <a

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Frijole&family=Galada&family=Londrina&family=Monoton&family=Mountains+of+Christmas&family=Ribeye+Marrow&display=swap');
 
 /* style sheet created for form test site and overall styling JosV */
 
@@ -24,7 +24,18 @@ background-size: 134%;
     background-position: 36% -71%;
 }
 
-nav {
+/*- background for homepage only -*/
+
+.bg-logo {
+   background: url('assets/images/quiz_valley_neon_bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*-- changing back to simple bootstrap navbar for consistency --*/
+/*nav {
   position: relative;
   height: 70px;
   background: rgb(207, 189, 180);
@@ -54,7 +65,7 @@ nav {
   border-top: 2px inset #9fa8f1;
   border-right: 2px outset #9fa8f1;
   border-left: 2px outset #9fa8f1;
-}
+}*/
 
 /*main {
   background: rgb(14, 7, 30);
@@ -87,6 +98,11 @@ nav {
 
 /* ____________________________________________________ other HTML elements _____________________________ */
 
+.logo {
+    max-width: 10px;
+    max-height: auto;
+}
+
 a,
 i,
 div,
@@ -101,11 +117,12 @@ h4 {
   -o-transition: all 0.2s ease-in-out;
 }
 
-a:hover {
+/*------ a hover class commented out - make a separate class if this is to be used -------*/
+/*a:hover {
   font-size: 1.03rem;
   text-decoration: none;
   color: #f4f4f4;
-}
+}*/
 
 h4 {
     font-size: 1.2rem;
@@ -371,8 +388,48 @@ button:focus {
 
 /* __________________ end of styling by Jos V _______________ */
 
+/**----------------------------------------Navlinks **/
 
 
+
+.home,
+.play,
+.host,
+.live,
+.brainteaser {
+    font-size: 22px;
+    font-family: "Ribeye Marrow", sans-serif;
+    margin-left: 1.6rem;
+}
+
+
+
+.home {
+    text-shadow: 2px 4px 6px #00FF00;
+}
+
+.play {
+    text-shadow: 2px 4px 6px #0062FF;
+}
+
+.host {
+    text-shadow: 2px 4px 6px #FF3300;
+}
+
+.live {
+    text-shadow: 2px 4px 6px #9D00FF;
+}
+
+.brainteaser {
+    text-shadow: 2px 4px 6px #FFFF00;
+}
+
+
+/*-footer navlinks padding to push into bricks-*/
+
+footer .play {
+    padding-right: 32px;
+}
 
 
 /**----------------------------------------Home **/
@@ -394,7 +451,7 @@ button:focus {
 }
 
 .welcome-logo {
-    width: 50%;
+    width: 25%;
     margin-bottom: 10px;
 }
 
@@ -463,6 +520,10 @@ button:focus {
 .host-img {
   width: 100%;
   filter: invert(100%);
+}
+
+.bt-img {
+    width: 100%;
 }
 
 .margin-auto {
