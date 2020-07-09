@@ -523,6 +523,7 @@ button:focus {
     line-height: 7px;
     text-align: center;
     background: #3746DA;
+    color: white
 }
 
 .connect-links li a i:hover {
@@ -531,6 +532,20 @@ button:focus {
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+}
+.badge-info {
+    background-color: #3746DA;
+    border-color: #3746DA;
+}
+
+.btn-info {
+    background-color: #3746DA;
+    border-color: #3746DA;
+}
+
+.btn-info:hover {
+    background-color: #dc50e0;
+    border-color: #dc50e0;
 }
 
 /**----------------------------------------Be the host **/
