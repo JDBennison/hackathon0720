@@ -17,7 +17,7 @@ header {
 
 footer {
   padding-bottom: 12px;
-
+    
   border: 1px solid #704a48;
   border-radius: 0 0 12px 12px;
   background-image: linear-gradient(rgba(14, 7, 30, 0.5), rgba(14, 7, 30, 0.5)),
@@ -25,6 +25,13 @@ footer {
   background-repeat: none;
 background-size: 134%;
     background-position: 36% -71%;
+}
+footer a {
+    color: #face8b
+}
+
+.footer-copyright{
+    color: #face8b
 }
 
 /*- background for homepage only -*/
@@ -115,7 +122,7 @@ i,
 div,
 span,
 h4 {
-  color: #face6d;
+  color: #202020;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -479,6 +486,16 @@ button:focus {
 .works-img {
     width: 100%;
 }
+
+.bio{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #a0a0a0;
+}
+
+.bio .media-body {
+    color: white;
+}
 /**----------------------------------------Be the host **/
 
 .connect-links{
@@ -524,7 +541,6 @@ button:focus {
 
 .host-img {
   width: 100%;
-  filter: invert(100%);
 }
 
 .bt-img {
