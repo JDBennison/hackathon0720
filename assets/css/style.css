@@ -7,6 +7,9 @@
 
 
 /* ____________________________________________________  Semantic  elements _____________________________ */
+body {
+    overflow-x: hidden;
+}
 
 header {
   padding-bottom: 6px;
@@ -101,6 +104,10 @@ background-size: 134%;
 .logo {
     max-width: 10px;
     max-height: auto;
+}
+
+.container-fluid {
+    padding: 0px !important;
 }
 
 a,
@@ -402,8 +409,6 @@ button:focus {
     margin-left: 1.6rem;
 }
 
-
-
 .home {
     text-shadow: 2px 4px 6px #00FF00;
 }
@@ -427,8 +432,8 @@ button:focus {
 
 /*-footer navlinks padding to push into bricks-*/
 
-footer .play {
-    padding-right: 32px;
+.playf {
+    margin-right: 32px;
 }
 
 
@@ -622,4 +627,33 @@ ol li {
 
 .card-title {
   color: #e7bd62;
+}
+
+.modal-body {
+    position: relative;
+    overflow: auto;
+    max-height: 400px;
+    padding: 15px;
+}
+
+.brainteaser-title {
+    width: 250px;
+}
+
+#bt-font1, 
+#bt-font2, 
+#bt-font3, 
+#bt-font4, 
+#bt-font5, 
+#bt-font6, 
+#bt-font7, 
+#bt-font8, 
+#bt-font9 {
+    font-family: "Mountains of Christmas", sans-serif;
+    font-size: 180%;
+}
+
+.modal-title {
+    font-family: "Mountains of Christmas", sans-serif;
+    font-size: 144%;
 }
