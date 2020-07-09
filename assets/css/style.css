@@ -657,3 +657,8 @@ ol li {
     font-family: "Mountains of Christmas", sans-serif;
     font-size: 144%;
 }
+
+/*- 404 page */
+.glyphicon-home {
+    padding-top: 22px;
+}
