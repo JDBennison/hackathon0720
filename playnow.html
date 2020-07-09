@@ -1,119 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <!--Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<title>Quiz Valley</title>
-</head>
+    <title>Quiz Valley</title>
+  </head>
 
-<body>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="VUn2c0IT"></script>
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand logo" href="index.html">
-				<img src="assets/images/quiz_valley_neon_logo.png" alt="Quiz Valley Logo">
-    </a>
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"
+      nonce="VUn2c0IT"
+    ></script>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand logo" href="index.html">
+          <img
+            src="assets/images/quiz_valley_neon_logo.png"
+            alt="Quiz Valley Logo"
+          />
+        </a>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item hvr-pulse">
-							<a class="nav-link home" href="index.html">Home</a>
-						</li>
-						<li class="nav-item hvr-pulse">
-							<a class="nav-link play" href="howtoplay.html">Rules</a>
-						</li>
-						<li class="nav-item hvr-pulse">
-							<a class="nav-link host" href="quizquestions">DIY</a>
-						</li>
-						<li class="nav-item hvr-pulse active">
-							<a class="nav-link live" href="playnow.html">Live <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item hvr-pulse">
-							<a class="nav-link brainteaser" href="brainteasers.html">Brainteasers</a>
-						</li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item hvr-pulse">
+              <a class="nav-link home" href="index.html">Home</a>
+            </li>
+            <li class="nav-item hvr-pulse">
+              <a class="nav-link play" href="howtoplay.html">Rules</a>
+            </li>
+            <li class="nav-item hvr-pulse">
+              <a class="nav-link host" href="quizquestions">DIY</a>
+            </li>
+            <li class="nav-item hvr-pulse active">
+              <a class="nav-link live" href="playnow.html"
+                >Live <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item hvr-pulse">
+              <a class="nav-link brainteaser" href="brainteasers.html"
+                >Brainteasers</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-					</ul>
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-xs-12 col-lg-6 iframe-container"
+          style="overflow: hidden; position: relative;"
+        >
+          <div
+            class="fb-video"
+            data-href="https://www.facebook.com/112233913798369/videos/672606409959164"
+            data-show-text="false"
+            data-width=""
+          >
+            <blockquote
+              cite="https://developers.facebook.com/quizvalley/videos/672606409959164/"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a
+                href="https://developers.facebook.com/quizvalley/videos/672606409959164/"
+                >Virtual Pub Quiz 14 (Age of Extinction)</a
+              >
+              <p>
+                Pubs are opening this weekend but quizzes are not back yet so
+                this is happening again! YEY! This week you could win Part 1 and
+                Part 2 of The BRUCE Project, an online escape room, courtesy of
+                Bewilder Box Escape Room Brighton and Eltham Escape Rooms. To be
+                in with a chance to win it make sure you fill out the google
+                form at https://forms.gle/ewXRB5dLSj4nShz16
+              </p>
+              Posted by
+              <a href="https://www.facebook.com/quizvalley/">Quiz Valley</a> on
+              Thursday, 2 July 2020
+            </blockquote>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-lg-6 iframe-container"
+          style="overflow: hidden; padding-top: 56.25%; position: relative;"
+        >
+          <iframe
+            style="
+              border: 0;
+              height: 100%;
+              left: 0;
+              position: absolute;
+              top: 0;
+              width: 100%;
+            "
+            src="https://docs.google.com/forms/d/1OUAJW71d8yNoMoEDrVKdvs6nLTLORR7ORbEpDde0EjM/viewform?edit_requested=true"
+            frameborder="0"
+            sandbox="allow-forms allow-scripts"
+          ></iframe>
+        </div>
+      </div>
+    </div>
 
-				</div>
-		</nav>
-	</header>
+    <!-- Footer -->
+    <footer class="page-footer font-small navbar-dark bg-dark pt-4">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a class="nav-link play playf" href="howtoplay.html">
+              How to play
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="nav-link host" href="quizquestions.html">
+              Previous quizzes
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="nav-link live" href="playnow.html">
+              Play now
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.facebook.com/quizvalley/"
+              target="_blank"
+              class="btn-floating btn-fb mx-1"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.twitch.tv/jbennison"
+              target="_blank"
+              class="btn-floating btn-tw mx-1"
+            >
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://twitter.com/jamesbennison88"
+              target="_blank"
+              class="btn-floating btn-gplus mx-1"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-6 iframe-container" style="overflow: hidden; position: relative;">
-				<div class="fb-video" data-href="https://www.facebook.com/112233913798369/videos/672606409959164" data-show-text="false" data-width=""><blockquote cite="https://developers.facebook.com/quizvalley/videos/672606409959164/" class="fb-xfbml-parse-ignore"><a href="https://developers.facebook.com/quizvalley/videos/672606409959164/">Virtual Pub Quiz 14 (Age of Extinction)</a><p>Pubs are opening this weekend but quizzes are not back yet so this is happening again! YEY!
-This week you could win Part 1 and Part 2 of The BRUCE Project, an online escape room, courtesy of Bewilder Box Escape Room Brighton and Eltham Escape Rooms. To be in with a chance to win it make sure you fill out the google form at https://forms.gle/ewXRB5dLSj4nShz16
-</p>Posted by <a href="https://www.facebook.com/quizvalley/">Quiz Valley</a> on Thursday, 2 July 2020</blockquote></div>
-			</div>
-			<div class=" col-6 iframe-container" style="overflow: hidden; padding-top: 56.25%; position: relative;">
-				<iframe style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;"
-					src="https://docs.google.com/forms/d/1OUAJW71d8yNoMoEDrVKdvs6nLTLORR7ORbEpDde0EjM/viewform?edit_requested=true"
-					frameborder="0" sandbox="allow-forms allow-scripts"></iframe>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-	<footer class="page-footer font-small navbar-dark bg-dark pt-4">
-		<!-- Footer Elements -->
-		<div class="container">
-			<!-- Social buttons -->
-			<ul class="list-unstyled list-inline text-center">
-				<li class="list-inline-item">
-					<a class="nav-link play playf" href="howtoplay.html">
-						How to play
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a class="nav-link host" href="quizquestions.html">
-						Previous quizzes
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a class="nav-link live" href="playnow.html">
-						Play now
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="https://www.facebook.com/quizvalley/" target="_blank" class="btn-floating btn-fb mx-1">
-						<i class="fab fa-facebook-f"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="https://www.twitch.tv/jbennison" target="_blank" class="btn-floating btn-tw mx-1">
-						<i class="fab fa-twitch"></i>
-					</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="https://twitter.com/jamesbennison88" target="_blank" class="btn-floating btn-gplus mx-1">
-						<i class="fab fa-twitter"></i>
-					</a>
-				</li>
-
-			</ul>
-		</div>
-
-		<!-- Copyright -->
-		<div class="footer-copyright text-center py-3">
-			© 2020 Copyright:
-			<a href="https://quizvalley.com/"> quizvalley.com</a>
-		</div>
-		<!-- Copyright -->
-	</footer>
-</body>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="https://quizvalley.com/"> quizvalley.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
 </html>
